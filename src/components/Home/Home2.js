@@ -20,18 +20,18 @@ function Home2() {
             <p className="home-about-body">
               I am DevOps Enthusiast and constantly gaining knowledge on it. 
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in Tools like
               <i>
                 <b className="purple"> Docker, Kubernetes and CI/CD. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are Learning new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Technologies </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  DevOps.
                 </b>
               </i>
               <br />
@@ -46,7 +46,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
