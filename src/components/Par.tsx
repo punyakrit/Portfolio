@@ -3,21 +3,18 @@ import Particles from 'react-tsparticles'
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
 type Engine = any
-type Container = any
 function Par() {
 
     const particlesInit = useCallback(async (engine: Engine) => {
         await loadSlim(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async (container: Container | undefined) => {
-    }, []);
+    
   return (
     <div>
       <Particles
             id="tsparticles"
             init={particlesInit}
-            loaded={particlesLoaded}
             options={{
                 "particles": {
                   "number": {
