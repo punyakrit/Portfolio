@@ -1,7 +1,11 @@
 import { TypeAnimation } from "react-type-animation";
+import Buttons from "./Buttons";
 
 function MainSection() {
   return (
+    <div>
+
+    {/* <Par */}
     <div className="flex justify-center items-center h-screen flex-col">
       <div
         className="text-5xl font-bold font-serif"
@@ -12,7 +16,7 @@ function MainSection() {
       <div className="text-4xl mt-5 ">
         I code{" "}
         <TypeAnimation
-        className="font-bold"
+          className="font-bold"
           sequence={[
             "Frontend Websites",
             2000,
@@ -26,8 +30,19 @@ function MainSection() {
           repeat={Infinity}
         />
       </div>
-      <div className="mt-10  mx-56 text-lg text-white/60">
-      I possess a diverse skill set combining technical proficiency with a commitment to excellence in software development. My expertise lies in the MERN stack, with a strong focus on utilizing React libraries like Recoil for state management and Tailwind CSS for designing sleek and responsive interfaces. I have hands-on experience in React, enabling me to create dynamic and user-friendly interfaces for web applications.      </div>
+      <div className="mt-10  mx-64 text-lg text-white/60">
+        A final year undergraduate with specialized expertise in developing MERN
+        (MongoDB, Express.js, React.js, Node.js) applications and deploying them
+        in the cloud using AWS (Amazon Web Services) tools. Highly motivated and
+        possessing the ability to work collaboratively within a team
+        environment, I am adept at leveraging modern technologies to create
+        efficient and scalable web solutions. With a strong foundation in
+        full-stack development and cloud computing, I am driven to contribute to
+        projects that require innovative problem-solving and a collaborative
+        approach to achieve success.
+      </div>
+      <Buttons />
+    </div>
     </div>
   );
 }
