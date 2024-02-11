@@ -10,7 +10,7 @@ function SideSocial() {
           target="_blank"
           className="inline-block"
         >
-          <FaGithub className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3" />
+          <FaGithub className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3 md:mx-1" />
         </a>
 
         <a
@@ -18,21 +18,21 @@ function SideSocial() {
           target="_blank"
           className="inline-block"
         >
-          <FaTwitter className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3" />
+          <FaTwitter className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3 md:mx-1" />
         </a>
         <a
           href="https://www.linkedin.com/in/punyakrit-singh-makhni/"
           target="_blank"
           className="inline-block"
         >
-          <FaLinkedin className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3" />
+          <FaLinkedin className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3 md:mx-1" />
         </a>
         <a
           href="mailto:punyakritsinghmakhni@gmail.com"
           target="_blank"
           className="inline-block"
         >
-          <MdOutlineEmail className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3" />
+          <MdOutlineEmail className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3 md:mx-1" />
         </a>
 
         <a
@@ -40,7 +40,7 @@ function SideSocial() {
           target="_blank"
           className="inline-block"
         >
-          <FaWhatsapp className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3" />
+          <FaWhatsapp className="w-7 h-7 hover:w-10 hover:h-10 transition-all duration-500 mx-3 md:mx-1" />
         </a>
       </div>
     </div>
