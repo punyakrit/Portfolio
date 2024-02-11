@@ -5,15 +5,14 @@ function MainSection() {
   return (
     <div>
 
-    {/* <Par */}
-    <div className="flex justify-center items-center h-screen flex-col">
+    <div className="flex justify-center items-center h-screen flex-col ">
       <div
-        className="text-5xl font-bold font-serif"
+        className="md:text-5xl text-2xl font-bold font-serif"
         style={{ fontFamily: "Roboto" }}
       >
         I'm Punyakrit Singh Makhni
       </div>
-      <div className="text-4xl mt-5 ">
+      <div className="md:text-4xl text-lg md:mt-5 mt-2">
         I code{" "}
         <TypeAnimation
           className="font-bold"
@@ -30,7 +29,7 @@ function MainSection() {
           repeat={Infinity}
         />
       </div>
-      <div className="mt-10  mx-64 text-lg text-white/60">
+      <div className="md:mt-10 mt-4  md:mx-48 mx-10 md:text-lg text-sm text-white/60">
         A final year undergraduate with specialized expertise in developing MERN
         (MongoDB, Express.js, React.js, Node.js) applications and deploying them
         in the cloud using AWS (Amazon Web Services) tools. Highly motivated and

@@ -6,11 +6,11 @@ import { useNavigate } from "react-router-dom";
 function Buttons() {
     const Navigate = useNavigate()
   return (
-    <div className="flex justify-around w-2/3 mt-10">
-      <div className="py-4 px-4 rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative">
+    <div className="md:flex justify-around md:w-2/3 md:mt-10 mt-6 ">
+      <div className="py-4 px-4  rounded-full  md:rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative w-max">
         <button onClick={() => Navigate("/project")}>View Projects</button>
       </div>
-      <div className="py-4 px-4 rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative">
+      <div className="py-4 px-4 rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative w-max mt-5 md:mt-0">
         <a href={resumee} target="_blank" rel="noopener noreferrer">
           <button
             className="flex items-center"
