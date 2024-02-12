@@ -22,7 +22,7 @@ function Error() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen p-4">
-      <img src={errorGif} alt="Error GIF" className="p-4" />
+      <img src={errorGif} alt="Error GIF" className="p-4" loading="lazy" />
       <h1 className="md:text-4xl text-2xl font-bold">
         Oops! Something went wrong.
       </h1>
