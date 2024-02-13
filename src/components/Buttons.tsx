@@ -7,10 +7,10 @@ function Buttons() {
     const Navigate = useNavigate()
   return (
     <div className="md:flex justify-around md:w-2/3 md:mt-10 mt-6 ">
-      <div className="py-4 px-4  rounded-full  md:rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative w-max">
+      <div className="py-4 px-4  rounded-full  md:rounded-full border-4 bg-purple-900/30 border-white shadow-white/50 shadow-lg relative w-max">
         <button onClick={() => Navigate("/project")}>View Projects</button>
       </div>
-      <div className="py-4 px-4 rounded-full border-4 bg-purple-900/30 border-white shadow-white shadow-md relative w-max mt-5 md:mt-0">
+      <div className="py-4 px-4 rounded-full border-4 bg-purple-900/30 border-white shadow-white/50 shadow-lg relative w-max mt-5 md:mt-0">
         <a href={resumee} target="_blank" rel="noopener noreferrer">
           <button
             className="flex items-center"
