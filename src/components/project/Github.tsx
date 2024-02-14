@@ -4,7 +4,7 @@ import GitHubCalendar from "react-github-calendar"
 
 function Github() {
   return (
-    <div className=" hidden lg:block">
+    <div className=" hidden lg:block py-10">
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="font-bold">Code</strong>
       </h1>

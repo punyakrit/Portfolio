@@ -14,7 +14,7 @@ function ProjectCard({ img,title,githubLink ,deployedLink}:data) {
 
   return (
     <div
-      className="relative m-5 p-5 border-2 rounded-lg w-[450px] h-60 stroke-slate-100 shadow-xl shadow-white/30"
+      className="relative m-7 p-5 border-2 rounded-lg  sm:w-[450px] sm:h-60 stroke-slate-100 shadow-xl shadow-white/30"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -28,10 +28,10 @@ function ProjectCard({ img,title,githubLink ,deployedLink}:data) {
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-violet-950 bg-opacity-90 text-white transition-opacity duration-800">
           <h2 className="text-2xl font-bold mb-2">{title}</h2>
           <div className="flex space-x-10">
-            <a href={githubLink}>
+            <a href={githubLink} target="_blank">
               <FaCode size={24} />
             </a>
-            <a href={deployedLink}>
+            <a href={deployedLink} target="_blank">
               <FaLink size={24} />
             </a>
           </div>

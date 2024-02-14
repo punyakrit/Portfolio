@@ -5,8 +5,8 @@ import ProjectList from "./project/ProjectList"
 
 function ProjectSection() {
   return (
-    <div className="  flex justify-center h-screen items-center flex-col" >
-      <div className="text-2xl">
+    <div className="  flex  h-fit items-center flex-col" >
+      <div className="text-4xl mb-6 mt-20">
         Project Section
         </div>
         <div>

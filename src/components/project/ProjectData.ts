@@ -1,5 +1,9 @@
 import img from "../../assets/portfolio.png";
 import weather from "../../assets/weather.png";
+import todo from "../../assets/Todo.png";
+import infi from "../../assets/infi.png";
+
+
 
 
 export const projectData = [
@@ -16,4 +20,16 @@ export const projectData = [
     deployedLink: "https://weather-app-punyakrit.vercel.app/",
   },
   
+  {
+    img: todo, 
+    title: "Full Stack Todo App",
+    githubLink: "https://github.com/punyakrit/FullStack-TodoApp",
+    deployedLink: "https://full-stack-todo-app-sable.vercel.app/",
+  },
+  {
+    img: infi, 
+    title: "Infinite Healings Project",
+    githubLink: "https://github.com/punyakrit/Infinite-Healings",
+    deployedLink: "https://www.infinitehealings.in/",
+  }
 ];

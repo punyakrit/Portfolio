@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className="bg-[#09001f] w-screen h-full text-white">
+      <div className="bg-[#09001f] w-full h-full text-white">
         <Par/>
         <div>
 
